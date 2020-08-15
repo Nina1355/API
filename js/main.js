@@ -52,12 +52,7 @@ function loadColorsFromStorage(){
        break;
     }
 }
-function  clearColorStorage() { 
 
-  localStorage.removeItem("colorList");
-  itemsContainer.innerHTML="";
-
-}
 
 fetchColorsList();
 loadColorsFromStorage();
